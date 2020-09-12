@@ -1,0 +1,88 @@
+/*Created by Fred Marble on 9/2/2020 
+Body sets the border, DIV sets the box, and the h1 and p set text styling*/
+
+body {
+    background-image: radial-gradient(#d33596 35%, transparent 20%),
+       radial-gradient(#d33596 35%, transparent 20%);
+    background-color: #8e44ad;
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
+    height: 200px;
+    width: 100%;
+  }
+  div {
+    border: 15px solid #8e44ad ;
+    background-color: #8e44ad;
+    margin: 2%;
+    box-sizing: border-box;
+  }
+header{
+  border: 15px solid purple;
+  background-color: purple;
+}
+  h1 {
+      font-family: 'Dancing Script', cursive, sans-serif;
+      color: #f1ed0f;
+      text-align: center;
+      font-size: 5.00em;
+      font-weight: 700;
+      line-height: 1.00em;
+  }
+  h2{
+    font-family: 'Dancing Script', cursive, sans-serif;
+      color: #f1ed0f;
+      text-align: center;
+      font-size: 1.25em;
+      font-weight: 700;
+      line-height: 1.00em;
+  }
+p{
+      background-color: purple;
+      font-family: 'Architects Daughter', cursive;
+      color: #f1ed0f;
+      font-size: 2.50em;
+      font-weight: 400;
+      text-align: left;
+      text-indent: 1.50em;
+      line-height: 1.00em;
+      padding: .5%;
+  }
+  p-2{
+    background-color: purple;
+    font-family: 'Architects Daughter', cursive;
+    color: #f1ed0f;
+    font-size: 1.50em;
+    font-weight: 400;
+    text-align: left;
+    text-indent: 1.50em;
+    line-height: 1.00em;
+    padding: .5%;
+}
+  ul{
+    text-align: center;
+  }
+  li{
+    display: inline;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.25em;
+    line-height: 1%;
+    border: 15px solid purple;
+    background-color: purple;
+    align-content: center;
+  }
+  a{
+    align-content: center;
+    color: #f1ed0f;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.25em;
+    line-height: 1%;
+  }
+  nav, #feature, #footer{
+    margin:2%;
+  }
+  tr{
+    background-color: purple;
+  }
+  th{
+    padding: 1%;
+  }
