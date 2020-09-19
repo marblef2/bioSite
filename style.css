@@ -11,8 +11,7 @@ body {
     width: 100%;
   }
   div {
-    border: 15px solid #8e44ad ;
-    background-color: #8e44ad;
+    border: 15px transparent #8e44ad ;
     margin: 2%;
     box-sizing: border-box;
   }
@@ -47,14 +46,14 @@ p{
       line-height: 1.00em;
       padding: .5%;
   }
-  p-2{
+  #p_2{
     background-color: purple;
     font-family: 'Architects Daughter', cursive;
     color: #f1ed0f;
     font-size: 1.50em;
     font-weight: 400;
     text-align: left;
-    text-indent: 1.50em;
+    text-indent: .90em;
     line-height: 1.00em;
     padding: .5%;
 }
@@ -85,4 +84,10 @@ p{
   }
   th{
     padding: 1%;
+  }
+  #images{
+    background-color: purple;
+  }
+  #main_content{
+    background-color: purple;
   }
