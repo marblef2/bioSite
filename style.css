@@ -15,9 +15,10 @@ body {
     margin: 2%;
     box-sizing: border-box;
   }
-header{
+header,#footer{
   border: 15px solid purple;
   background-color: purple;
+  border-radius: 15px;
 }
   h1 {
       font-family: 'Dancing Script', cursive, sans-serif;
@@ -44,30 +45,7 @@ p{
       text-align: left;
       text-indent: 1.50em;
       line-height: 1.00em;
-      padding: .5%;
-  }
-  #p_2{
-    background-color: purple;
-    font-family: 'Architects Daughter', cursive;
-    color: #f1ed0f;
-    font-size: 1.50em;
-    font-weight: 400;
-    text-align: left;
-    text-indent: .90em;
-    line-height: 1.00em;
-    padding: .5%;
-}
-  ul{
-    text-align: center;
-  }
-  li{
-    display: inline;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 1.25em;
-    line-height: 1%;
-    border: 15px solid purple;
-    background-color: purple;
-    align-content: center;
+      
   }
   a{
     align-content: center;
@@ -76,18 +54,39 @@ p{
     font-size: 1.25em;
     line-height: 1%;
   }
-  nav, #feature, #footer{
-    margin:2%;
-  }
-  tr{
+  #page_nav{
+    border: 15px solid purple;
+    display: grid;
+    grid-template-columns: auto auto auto;
     background-color: purple;
+    border-radius: 15px;
+   }
+  #nav_item{
+    padding: 5px; 
   }
-  th{
-    padding: 1%;
-  }
-  #images{
-    background-color: purple;
+  figure{
+    text-align: center;
   }
   #main_content{
     background-color: purple;
+    border: 15px solid purple;
+    border-radius: 15px;
   }
+  #image_gallery{
+    border: 15px solid rgba(119, 21, 119, .2);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: purple;
+    border-radius: 15px;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+   }
+  #image_item{
+    text-align: center;
+  }
+  figcaption{
+    color: #f1ed0f;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1em;
+    font-weight: 400;
+}

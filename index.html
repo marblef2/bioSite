@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<!--Created by Fred Marble 9/2/20-->
+<!--Created by Fred Marble 9/2/20. Updated 9/25/20-->
 <html>
     <head>
 		<meta charset="UTF-8">
@@ -13,13 +13,24 @@
 		<div id="header">
 			<header><h1 id="top">Brian Skutnik</h1></header>
 		</div>
-
-		<div id="nav">
-			<ul>
-				<li><a href="#images">Images</a></li>
-				<li><a href="#text">Text</a></li>
-				<li><a href="https://www.knitpicks.com" target="_blank">Brian's Favorite Website</a></li>
-			</ul>
+<!--Moved the navigation from a static table, to a more device friendly format-->
+		<div id="page_nav">
+			<div class="nav_item"> 
+				<figure>
+					<a href="#image_gallery">Images</a>
+				</figure>
+			</div>
+			<div class="nav_item"> 
+				<figure>
+					<a href="#text">Text</a>
+				</figure>
+			</div>
+			<div class="nav_item">
+				<figure>
+					<a href="https://www.knitpicks.com" target="_blank">Brian's Favorite Website</a>
+				</figure>
+			</div>
+				
 		</div>
 		
 		<div id="main_content">
@@ -44,39 +55,53 @@
 				I am not getting pulled in three different directions at once.
 			</p>
 		</div>
-		<div id="images">
-			<table class="center">
-				<tr>
-				<th class="column"><img src="images/master_bdrm_celling.jpg" atl="construction of the master bedroom celling" title="Celling in the 
-					master bedroom after putting in new " style="width:100%"></th>
-				<th><img src="images/master_bdrm_wall_1.jpg" alt="construction of the master bedroom wall" title="One of the walls in the
-					master bedroom in the process of construction" style="width:100%"></th>
-				<th> <img src="images/master_bdrm_wall_2.jpg" alt="construction of another wall in the master bedroom" title="
-					Another wall picture during construction showing the new wiring placed into the wall"style="width:100%"></th>
-				</tr>
-				<tr>
-					<th class="column"><p id='p_2'>Here is the celling of the master bedroom open for construction.</p></th>
-					<th><p id='p_2'>Here is one of the walls in the master bedroom in the process of being rebuilt.</p></th>
-					<th><p id='p_2'>This is the wall that seperates the kitchen from the master bedroom.</p></th>
-				</tr>	
-			</table>
-			<table class="center">
-				<tr>
-				<th><img src="images/dogs_standing_on_stuffing.jpg" alt="dogs standing on stuffing from a couch" title="Two big dogs standing on stuffing
-					after tearing the couch apart" style="width:100%"/></th>
-				<th><img src="images/dogs_playing_on_bed.JPG" alt="two dogs wrestling on the bed" title="Two dogs deciding to
-					rough house on the bed" style="width:100%"></th>
-				<th><img src="images/brian_knitting.JPG" alt="Brian Knitting a mitered square blanket" title="Brian knitting a fourth section of the mitered
-					square blanket" style="width: 100%;"/></th>
-				</tr>
-				<tr>
-					<th class="column-2"><p id='p_2'>Two of the three dogs standing on top of the stuffing from a loveseat.</p></th>
-					<th><p id='p_2'>Two different dogs playing on the bed.</p></th>
-					<th><p id='p_2'>Here is a picture of Brian knitting in the recliner.</p></th>
-				</tr>	
-			</table>
+<!--Moved the Photo Gallery from a static table, to a more device friendly format-->
+		<div id="image_gallery">
+			<div class="image_item">
+				<figure>
+					<img src="images/master_bdrm_celling.jpg" atl="construction of the master bedroom celling" title="Celling in the 
+					master bedroom after putting in new " style="width:100%">
+					<figcaption>Here is the celling of the master bedroom open for construction.</figcaption>
+				</figure>
+			</div>
+			<div class="image_item">
+				<figure>
+					<img src="images/master_bdrm_wall_1.jpg" alt="construction of the master bedroom wall" title="One of the walls in the
+					master bedroom in the process of construction" style="width:100%">
+					<figcaption>Here is one of the walls in the master bedroom in the process of being rebuilt.</figcaption>
+				</figure>
+			</div>
+			<div class="image_item">
+				<figure>
+					<img src="images/master_bdrm_wall_2.jpg" alt="construction of another wall in the master bedroom" title="
+					Another wall picture during construction showing the new wiring placed into the wall"style="width:100%">
+					<figcaption>This is the wall that seperates the kitchen from the master bedroom.</figcaption>
+				</figure>
+			</div>
+			<div class="image_item">
+				<figure>
+					<img src="images/dogs_standing_on_stuffing.jpg" alt="dogs standing on stuffing from a couch" title="Two big dogs standing on stuffing
+					after tearing the couch apart" style="width:100%"/>
+					<figcaption>Two of the three dogs standing on top of the stuffing from a loveseat.</figcaption>
+				</figure>
+			</div>
+			<div class="image_item">
+				<figure>
+					<img src="images/dogs_playing_on_bed.JPG" alt="two dogs wrestling on the bed" title="Two dogs deciding to
+					rough house on the bed" style="width:100%">
+					<figcaption>Two different dogs playing on the bed.</figcaption>
+				</figure>
+			</div>
+			<div class="image_item">
+				<figure>
+					<img src="images/brian_knitting.JPG" alt="Brian Knitting a mitered square blanket" title="Brian knitting a fourth section of the mitered
+					square blanket" style="width: 100%;"/>
+					<figcaption>Here is a picture of Brian knitting in the recliner.</figcaption>
+				</figure>
+			</div>
+		  </div> 
 		</div>
-
+<!--Changed the footer to be a more user friendly format.-->
 		<div id="footer">
 			<h2>&copy; Copyright 2020 F.Marble</h2>
 			<a href="#top">Back to the top!</a>
